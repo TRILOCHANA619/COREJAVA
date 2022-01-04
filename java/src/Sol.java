@@ -9,10 +9,7 @@ public class Sol {
 		y=b;
 	}
 	public static void main(String[] args) {
-	Sol s=new Sol();
-	s.call(2,3);
-	System.out.println(s.x+"  "+s.y);
-		
+	
 	}
 
 }
