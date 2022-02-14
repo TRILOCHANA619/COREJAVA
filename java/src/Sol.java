@@ -1,15 +1,12 @@
+import java.util.Scanner;
 
 public class Sol {
 
-	public int x;
-	public int y;
-	
-	void call(int a,int b) {
-		x=a+1;
-		y=b;
+	public Sol() {
+		System.out.println("Sol.Sol()");
 	}
-	public static void main(String[] args) {
-	
+	public Sol( int a) {
+		System.out.println("Sol.Sol()   "+a);
 	}
 
 }

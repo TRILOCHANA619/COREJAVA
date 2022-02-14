@@ -10,6 +10,7 @@ public class ReverseThestring {
 	public static void main(String[] args) {
 		Scanner scn= new Scanner(System.in);
 		String input=scn.nextLine();
+		
 		System.out.println(reverse(input));
 		scn.close();
 

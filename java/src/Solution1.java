@@ -1,14 +1,27 @@
-import java.util.ArrayList;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
 
 public class Solution1 {
+	
+	
 
 	public static void main(String[] args) {
 
-		int v1=5;
-		int v2=6;
-		int v3=++v2*v1/v2+v2;
-		System.out.println(v3);
-				
+//		try {
+//			DataInputStream io=new DataInputStream(new FileInputStream("data.txt"));
+//		System.out.println(	io.readFloat());
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
+//		try {
+//			DataOutputStream io=new DataOutputStream(new FileOutputStream("data.txt"));
+//		io.writeFloat(15f);
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 	
 

@@ -20,6 +20,7 @@ public class StreamApiTest {
 		System.out.println(list1.stream().sorted((x,y)->x-y).collect(Collectors.toList()));
 		System.out.println(list1.stream().sorted((x,y)->y-x).collect(Collectors.toList()));
 		
+		
 		Spliterator<String> split=list2.spliterator();
 		//split.forEachRemaining(System.out::println);
 		Spliterator<String> split2=split.trySplit();
